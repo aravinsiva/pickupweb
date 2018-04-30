@@ -76,49 +76,21 @@
 
   <div id="content">
 
-<div class="container home-header" id="lead_content">
-  <div class="row">
-    <div class="col-md-7 mbx">
-      <h1 class="pickup-tagline feature-header">
-        <div id="pickup_title">
-          PickUp
-        </div>
-            <br>
-            Ride Share<br>
-            Done Better.
+
+
+
       </h1>
       <div class="mtl mbl lead">
+      <div class="animation-container">
+      <img
+      alt="PickUp Banner"
+      class="animation-frame"
+      src="img/pickup website banner.png"
+      >
       </div>
 
       
-<div class="mtl"></div>
 
-      <a
-        class="fancybox lead header-link" <!--add href=""-->
-
-        <img
-          alt="Video play button"
-          style="width:50px;height:40px;"
-          id="play_button"
-          src="img/play_button.png"
-        >
-        Watch Video
-      </a>
-
-    </div>
-
-    <div class="col-md-4 col-md-push-1">
-      <div class="animation-container mbs">
-        <div class="home-animation" id="home_animation_light">
-          
-          <!--Video Autoplay-->
-          <!--
-          <video autoplay="1" class="animation-video" id="home_animation_video_light" preload="1">
-            <source src="">
-          </video>
-            -->
-
-        </div>
       </div>
     </div>
   </div>
@@ -138,10 +110,15 @@
     <div class="row mtl">
       <div class="col-md-4 col-md-push-6 lead mbl">
         <p class="mts">
-          Insert PickUp description here, and a whole bunch of stuff about pickup so that it aligns with the iphone, which can have a video playing demonstrating how the app works briefly.
+        <br><br>Pickup is a ridesharing service designed to simplify the commute of university students around Ontario and provide the best commuting experience.<br><br><br>
+        
+        Our app is currently in development and will be released in time for early September.<br><br>
+        
+        In the meantime scroll down to try out our service from this website.
+        <br><br>
+
         </p>
         <p>
-          More stuff about PickUp if you'd like, also added a sign up to become a driver button below, and can add others.
         </p>
         <div class="learn-more-button-wrapper mtm">
           <a
@@ -153,14 +130,22 @@
         </div>
       </div>
       <div class="col-md-5 col-md-pull-3 mts text-center">
+      
+      
+
 
         <div class="animation-container">
-          <img
-            alt="iPhone frame"
-            class="animation-frame"
-            src="img/iphoneframe_white.png"
-          >
+        <div id="animation-container">
+        <video width="400" height="800" controls>
+        <source src="img/IMG_2497.TRIM 2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
+        </div>
+    
+        
+        
+       
         </div>
       </div>
     </div>
@@ -174,16 +159,41 @@
       <div class="col-md-8 col-md-offset-2">
 
         <h2 class="feature-header mtl">
-          Download PickUp Today <br> Available on IOS and Android
+          Get A Ride Today <br> Please Fill Out The Following Form And Select Rider Or Driver<br>
+          <br>
+          Info:
         </h2>
-        <p class="lead mtm">
-          Insert a split column here, where the left is links to downloading the app with an image.
-          <br>
-          Right is referral link with referral text box
-          <br>
-        </p>
-      </div>
+              </div>
     </div>
+    
+    <div class="row text-center">
+    <form>
+    First Name:<br>
+    <input type="text" name="firstname"><br><br>
+    Last name:<br>
+    <input type="text" name="lastname"><br><br>
+    Starting From:<br>
+    <input type="text" name= "startinglocation"><br><br>
+    Destination:<br>
+    <input type="text" name= "Destination"><br><br>
+    Phone Number:<br>
+    <input type="text" name="PhoneNumber"><br><br>
+    Email Adress:<br>
+    <input type="text" name="EmailAddress"><br><br>
+    Time Of Departure:<br>
+    <input type="text" name="Time Of Departure"><br><br>
+    </form>
+    
+    <form>
+    <input type="radio" name="usertype" value="Driver" checked> I Am A Driver<br>
+    <input type="radio" name="usertype" value="Rider"> I Am A Rider<br>
+    </form>
+    <br><br>
+
+    <form action="/action_page.php">
+    <input type="submit" value="Submit">
+    </form>
+
   </div>
 </div>
 
@@ -191,7 +201,7 @@
 <div class="feature-block text-center">
   <div class="container">
     <h2 class="feature-header">
-      Contact Us
+      Contact Us:
     </h2>
 
     
@@ -203,7 +213,13 @@
           src=""
         > -->
         <div class="lead">
-          Enter Contact Information Here. Alternatively/Additionally can use this space for something about the team, more information about the company, etc.
+        
+        pickuprideshare@gmail.com<br>
+        
+        647-632-1080<br>
+        
+        175 Longwood Road South Hamilton ON<br>
+
         </div>
       </div>
     </div>
@@ -212,3 +228,4 @@
 
   </body>
 </html>
+
